@@ -5,7 +5,7 @@
 WORKING_DIR=${WORKING_DIR:-/tmp/_working_dir}
 NAMESPACE=${NAMESPACE:-openshift-logging}
 CA_PATH=${CA_PATH:-$WORKING_DIR/ca.crt}
-
+hello=10
 REGENERATE_NEEDED=0
 
 function init_cert_files() {
